@@ -1,0 +1,131 @@
+ /* .flex-container {
+  border: 1px solid red;
+  display: flex;
+  background-color: dodgerblue;
+  align-items:space-around;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} 
+
+/* flex-container-style */
+/* 1.flex-direction */
+/* flex-direction:column - tepadan pastga qarab yuradi */
+/* flex-direction:column-reverse - pastdan tepaga qarab yuradi */
+/* flex-direction:row - chapdan o'nggga qarab yuradi */
+/* flex-direction:row-reverse - o'ngdan chapga qarab yuradi */
+ /* .flex-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: dodgerblue;
+}
+
+/* .flex-container > div {
+  margin: 10px;
+  width: 500px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} 
+
+/* 2.flew-wrap:wrap sig'magan elementlarimizni pastga tushiradi */
+/* .flex-container {
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} */
+
+/* 3.flex-flow - flex-direction va flex-wrapni birlashmasi  */
+/* .flex-container {
+  border: 1px solid red;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} */
+
+/* 4.justify-content  */
+/* flex-start - bir chekkadan boshlaymiz.  */
+/* space-evenly - hamma qismidan bir hil joy tashlaydi  */
+/* space-arond - ikki yon tomonidan joy tashlaydi(o'ng va chap)  */
+/* .flex-container {
+  border: 1px solid red;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} */
+
+/* 5.align-items - y - o'qi bo'yicha yuradi */
+/* .flex-container {
+  border: 1px solid red;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: dodgerblue;
+}
+
+.flex-container > div {
+  margin: 10px;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  text-align: center;
+  font-size: 18px;
+} 
+
+/* 6.align-content - tepadan pastga qarab yuradi */
+/* .flex-container {
+    border: 1px solid red;
+    height: 400px;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: space-evenly;
+    background-color: dodgerblue;
+  }
+  
+  .flex-container > div {
+    margin: 10px;
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+  } 
+    /* img bilan span  ( enlayn ) element div esa blok elementi */

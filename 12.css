@@ -1,0 +1,149 @@
+.flex-cotainer{
+    border: 1px solid red;
+    padding: 20px;
+    margin: 20px;
+    background-color:  dodgerblue;
+    display: flex;
+    flex-direction: column-reverse;
+
+  
+}
+
+
+.flex-cotainer >div{
+    margin: 10px;
+    padding: 20px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.flex-cotainer-styl{
+   .flex-direction
+   flex-direction:column -tepadan pastga qarab yuradi; 
+   flex-direction:column - reverse
+}
+/* .flex-cotainer{
+    border: 1px  solid red;
+    display: flex;
+    flex-direction: row;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    padding: 20px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    height: 100px;
+
+} */
+/* .flex-cotainer{
+    border: 1px  solid red;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+
+} */
+/* justfan - contant  */
+/* .flex- start  bir chekkadan boshlaydi */
+/* .flex-cotainer{
+    border: 2px  solid red;
+    display: flex;
+    flex:;
+    height: 200px;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+} */
+
+
+
+/* space-arond -  ikkala yon tarafdan joy tashaydi (ong va chapdan */
+/*  
+.flex-cotainer{
+    border: 2px  solid red;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+ 
+} */
+
+/*  justify-content:- x - o'qi bilan  yuradi */
+/*  align-items - y - o'qi boyicha yuradi */
+ 
+/* .flex-cotainer{
+    border: 2px  solid red;
+    display: flex;
+    align-items: center;
+    height: 200px;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+ 
+} */
+/* align-content -  tepadan pastga qarab yuradi  */
+/* 
+.flex-cotainer{
+    border: 2px  solid red;
+    display: flex;
+     
+    align-content: space-between;
+    height: 200px;
+ background-color: dodgerblue;
+}
+
+.flex-cotainer >div{
+    margin: 10px;
+    background-color:white;
+    text-align: center;
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+ 
+} */
+
+
+

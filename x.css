@@ -1,0 +1,33 @@
+.v{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    height: 50px;
+  }
+  .v >a{
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #3771c8;
+    transition: all 0.2 ease;
+  }
+  .v >span{
+    width: 109px;
+    height: 6px;
+    border: 1px solid #F9D15C;
+    border-radius: 280px;
+    opacity: 0;
+    transition: all 0.2 ease;
+  }
+  .v:hover span {
+   opacity: 1;
+  }
+  .v:hover a{
+    transform: scale(0.9);
+  }
+  
+  .v > a:focus{
+    color: blue;
+  }
